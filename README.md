@@ -1,24 +1,14 @@
-# README
+# Rails The Hacking Pinterest
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Bienvenue sur notre troisième projet rails ! 
 
-Things you may want to cover:
+On vous invite à faire un git clone de notre repo pour récupérer notre travail. 
+<code> $ git https://github.com/thprennes7/the_hacking_pinterest_saflosa.git </code>
 
-* Ruby version
+## Notre réflexion
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Cette plateforme de partage propose du continu publié par les utilisateurs et ce contenu peut être commenté par les autres utilisateurs.
+Nous avons donc créé trois tables : 
+- une pour les utilisateurs qui contiens quatres colonnes : l'id de l'utilisateur, son prénomm, son nom, son email.
+- une pour les pins qui contiens deux colonnes : l'id du pin et le lien du pin.
+- Une pour les commentaires qui contiens une colonne : l'id du commentaire.
